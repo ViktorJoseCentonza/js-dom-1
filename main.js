@@ -13,8 +13,4 @@ function switch_img() {
         document.getElementById("mybutton").value = "Accendi"
         active = false
     }
-
-
-
-    return 0
 } 
