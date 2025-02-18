@@ -24,10 +24,10 @@ document.getElementById("mybutton").addEventListener("click", switch_img)
 function switch_img() {
 
     if (document.getElementById("mybutton").value.includes("Accendi")) {
-        document.getElementById("myimg").src = "./assets/img/yellow_lamp.PNG"
+        document.getElementById("myimg").src = "./assets/img/yellow_lamp.png"
         document.getElementById("mybutton").value = "Spegni"
     } else {
-        document.getElementById("myimg").src = "/assets/img/white_lamp.png"
+        document.getElementById("myimg").src = "./assets/img/white_lamp.png"
         document.getElementById("mybutton").value = "Accendi"
     }
 } 
