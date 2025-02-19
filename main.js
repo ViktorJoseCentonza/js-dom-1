@@ -18,7 +18,7 @@ function switch_img() {
 */
 
 ///second method
-/*
+
 document.getElementById("mybutton").addEventListener("click", switch_img)
 
 function switch_img() {
@@ -30,12 +30,12 @@ function switch_img() {
         document.getElementById("myimg").src = "./assets/img/white_lamp.png"
         document.getElementById("mybutton").value = "Accendi"
     }
-} 
+}
 
-*/
+
 ///third method (trying to fix not loading alt image on server-side)
 
-
+/*
 document.getElementById("mybutton").addEventListener("click", switch_img)
 
 function switch_img() {
@@ -48,3 +48,4 @@ function switch_img() {
         document.getElementById("mybutton").value = "Accendi"
     }
 } 
+    */
